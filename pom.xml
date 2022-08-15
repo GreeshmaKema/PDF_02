@@ -1,0 +1,109 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>iTextPdf</groupId>
+  <artifactId>iTexttPdf</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>     
+      <!-- always needed -->  
+      <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+			<dependency>
+   		 <groupId>org.apache.pdfbox</groupId>
+   		 <artifactId>pdfbox</artifactId>
+   		 <version>3.0.0-RC1</version>
+		</dependency>
+      
+      
+		<dependency>
+ 		   <groupId>com.itextpdf</groupId>
+  		  <artifactId>itextpdf</artifactId>
+  		  <version>5.5.13.3</version>
+		</dependency>
+         <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+		</dependency>
+		
+		<!-- This dependency is for opening pdf file -->
+		<dependency>
+ 		   	<groupId>com.github.librepdf</groupId>
+   		 	<artifactId>openpdf</artifactId>
+   			<version>1.0.1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		
+    <dependency>
+        <groupId>com.google.api-client</groupId>
+        <artifactId>google-api-client</artifactId>
+        <version>1.28.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>23.0</version>
+    </dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.0.3</version>
+		</dependency> 
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>io</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>layout</artifactId>         
+         <version>7.0.2</version>
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>forms</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>pdfa</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>sign</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>barcodes</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>font-asian</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>hyph</artifactId>         
+         <version>7.0.2</version>    
+      </dependency> 
+   </dependencies>
+</project>
