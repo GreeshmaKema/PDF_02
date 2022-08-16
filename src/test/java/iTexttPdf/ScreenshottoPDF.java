@@ -31,12 +31,12 @@ public class ScreenshottoPDF
 	
 		// Take screenshot
 		File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshot, new File("./Screenshots/img22.jpg"));
+		FileUtils.copyFile(screenshot, new File("./Screenshots/AutomationReport.jpg"));
 
 		// Create the PDF
 		Document doc = new Document(PageSize.A0);
-		String input = "./Screenshots/img22.jpg";
-		String output = "./pdf files/newpdffile.pdf";
+		String input = "./Screenshots/AutomationReport.jpg";
+		String output = "./pdf files/Autopdffile.pdf";
 		
 		try 
 		{

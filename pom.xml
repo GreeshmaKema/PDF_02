@@ -136,5 +136,14 @@
     <artifactId>htmlunit-driver</artifactId>
     <version>3.63.0</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>4.0.0-alpha-2</version>
+</dependency>
+
+
    </dependencies>
 </project>
