@@ -4,7 +4,11 @@
   <test thread-count="5" name="M10_Release1">
   
     <classes>
+      <class name="iTexttPdf.Html_Pdf"/>
       <class name="iTexttPdf.ImgtoPDF"/>
+      <class name="iTexttPdf.Pdfreportgeneration"/>
+      <class name="iTexttPdf.ScreenshotProgram"/>
+      <class name="iTexttPdf.ScreenshottoPDF"/>
     </classes>
     
   </test> <!-- Test -->
