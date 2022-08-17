@@ -27,7 +27,7 @@ public class ScreenshottoPDF
 		driver.manage().deleteAllCookies();		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	
-		driver.get("file:///C:/Projects/iTexttPdf/test-output/Mohs10%20Framework%20Test%20Suite/Home%20Page%20Test%20Case.html");
+		driver.get("file:///C:/Users/Tharun/eclipse-workspace/.metadata/pAInITe/Report/AutomationReport.html");
 	
 		// Take screenshot
 		File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
