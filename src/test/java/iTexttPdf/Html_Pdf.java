@@ -15,7 +15,7 @@ public class Html_Pdf
 {
 	public static void itextpdf() throws Exception 
 	{
-		String File = "./Screenshots/automationpdfreport1.pdf";
+		String File = "./Screenshots/newpdffile.pdf";
 		Document doc = new Document();
 		PdfWriter.getInstance(doc, new FileOutputStream(File)); 
 		
