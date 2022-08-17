@@ -36,7 +36,7 @@ public class Pdfreportgeneration
         System.out.println("Screenshot saved in folder screenshots");
         
      //PDF File Generation
-        unitDriver.get("file:///D:/C%20driver%20backup/Mohs10Tech/Mohs10%20Framework/Report/AutomationReport.html#");
+        unitDriver.get("file:///C:/Users/Tharun/eclipse-workspace/.metadata/pAInITe/Report/AutomationReport.html");
 		
 		Pdf pdf = ((PrintsPage) unitDriver).print(new PrintOptions());
 		
