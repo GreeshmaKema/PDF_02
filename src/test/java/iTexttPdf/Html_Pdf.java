@@ -29,7 +29,7 @@ public class Html_Pdf
 	public static void main(String args[]) throws Exception
 	{
 		WebDriver driver = new ChromeDriver();
-		driver.get("file:///D:/C%20driver%20backup/Mohs10Tech/Mohs10%20Framework/Report/AutomationReport.html");
+		driver.get("file:///C:/Users/Tharun/eclipse-workspace/.metadata/pAInITe/Report/AutomationReport.html");
 		
 		try {
 			driver.findElement(By.name("7"));
